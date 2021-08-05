@@ -1,0 +1,122 @@
+html, body {
+  background-color: hsl(233, 47%, 7%);
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.stats h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.stats p {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-size: .525rem;
+  letter-spacing: 0.25em
+}
+
+.col-md-4 {
+  padding: 0%;
+}
+
+.col-sm-6 {
+  padding: 0;
+}
+
+.row .stats {
+  padding-top: 2rem;
+}
+
+.body-content {
+  padding: 4rem;
+}
+
+
+
+.highlight {
+  color: hsl(277, 64%, 61%);
+}
+
+.radius {
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  object-fit: cover;
+}
+
+.card {
+  border-radius: .5rem;
+  border: 0;
+  background-color: hsl(244, 38%, 16%);
+}
+
+.mobile-card-padding{
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.overlay-effect {
+  background-color: hsl(277, 64%, 61%);
+}
+
+.overlay-effect img {
+  filter: brightness(1.2);
+  mix-blend-mode: multiply;
+}
+
+@media only screen and (max-width: 575px) {
+  body {
+    text-align: center;
+  }
+
+  .radius {
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: 0rem;
+    border-top-left-radius: .5rem;
+  }
+
+.col-md-12{
+  padding:0;
+}
+
+.card {
+  margin: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .stats h1 {
+    font-size: 2.75rem;
+  }
+
+  .stats p {
+    font-size: .75rem;
+    letter-spacing: 0.25em
+  }
+}
